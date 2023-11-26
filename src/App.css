@@ -1,0 +1,41 @@
+.App {
+  /* height: auto; */
+  width: 100%;
+  
+  display: flex;
+}
+.App-Header{
+   display: flex;
+   margin-left: auto;
+   margin-right:auto ;
+   align-items: center;
+   text-align: center;
+   
+  
+}
+button,input{
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: black;
+}
+body{
+  background-color: rgb(137, 42, 232);
+}
+img{
+  height: 20px;
+  border-radius: 50%;
+  /* float: right; */
+  margin-left: 10px;
+ 
+}
+.message{
+  display: flex;
+ gap: 20px;
+  flex-direction:row-reverse;
+}
+
+
+
+
